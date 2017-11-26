@@ -1,0 +1,211 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Your template name 
+    Template URI: http://bootexperts.com
+    Description: This is html5 template
+    Author: BootExperts
+    Author URI: http://bootexperts.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+
+-----------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html, body {height: 100%;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+}
+a {-webkit-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #ec4445;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.fullwidth-boxes-area {
+  padding: 80px 0;
+}
+.promo-boxes-wrap {
+  margin-left: -15px;
+  text-align: center;
+}
+.single-promo-boxes-area {
+  display: table;
+  float: left;
+  height: 400px;
+  width: 50%;
+  color: #d8889b;
+}
+
+.promo-boxes-area-tablcell {
+  display: table-cell;
+  padding-top: 70px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+}
+.single-promo-boxes-area .promo-icon:before {
+  font-size: 70px;
+  margin: 0;
+}
+.single-promo-boxes-area h2 {
+  color: #45484d;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 30px;
+  margin: 50px 0;
+  position: relative;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+.single-promo-boxes-area h2:before {
+  background: #d8889b none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 60px;
+}
+a.boxed-btn {
+  background: #d8889b none repeat scroll 0 0;
+  border-radius: 50px;
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 15px 40px;
+  text-transform: uppercase;
+}
+.single-promo-boxes-area a.boxed-btn {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  visibility: hidden;
+}
+.single-promo-boxes-area:nth-child(2) {
+  background: #d8889b none repeat scroll 0 0;
+  color: #fff;
+}
+.single-promo-boxes-area:nth-child(2) h2, .single-promo-boxes-area:nth-child(3) h2 {
+    color: #fff;
+}
+.single-promo-boxes-area:nth-child(2) h2:before, .single-promo-boxes-area:nth-child(3) h2:before {
+    background: #fff;
+}
+.single-promo-boxes-area:nth-child(2) a.boxed-btn {
+  background: #ffffff none repeat scroll 0 0;
+  color: #d8889b;
+}
+.single-promo-boxes-area:nth-child(3) {
+  background: #7dbace none repeat scroll 0 0;
+  color: #fff;
+}
+.single-promo-boxes-area:nth-child(3) a.boxed-btn {
+  background: #ffffff none repeat scroll 0 0;
+  color: #7dbace;
+}
+.single-promo-boxes-area:nth-child(4) {
+  color: #7dbace;
+}
+.single-promo-boxes-area:nth-child(4) a.boxed-btn {
+  background: #7dbace none repeat scroll 0 0;
+  color: #fff;
+}
+.single-promo-boxes-area:nth-child(4) h2:before {
+  background: #7dbace;
+}
+.single-promo-boxes-area:hover a.boxed-btn {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    visibility: visible;
+}
+.single-promo-boxes-area:hover .promo-boxes-area-tablcell {
+    padding-top: 0;
+}
+
+
+.right-side-content {
+  background: #f5f6fa none repeat scroll 0 0;
+  margin-right: -15px;
+  padding: 184.5px 100px 184.5px 140px;
+}
+.section-title {}
+.section-title h3 {
+  color: #7dbace;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.section-title h2 {
+  color: #45484d;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 36px;
+  margin-bottom: 50px;
+}
+.right-side-content h4 {
+  color: #45484d;
+  font-size: 21px;
+  line-height: 1.6;
+}
+.right-side-content p {
+  line-height: 1.7;
+  margin-bottom: 50px;
+}
+.section-btn .boxed-btn {
+  background: #7dbace none repeat scroll 0 0;
+  color: #fff;
+}
+.section-btn .bordered-btn {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 2px solid #7dbace;
+  color: #7dbace;
+  margin-left: 30px;
+}
